@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wicket="http://wicket.apache.org">
+<body>
+<div wicket:id="commentBox">
+    <h1>Comments</h1>
+    <div class="item" wicket:id="commentList">
+        <h2 wicket:id="author"></h2>
+        <div wicket:id="text"></div>
+    </div>
+    <form wicket:id="commentForm">
+        <input type="text" placeholder="Your name" wicket:id="author"/>
+        <input type="text" placeholder="Say something..." wicket:id="text"/>
+        <input type="submit" value="Post" wicket:id="post"/>
+    </form>
+</div>
+</body>
+</html>
